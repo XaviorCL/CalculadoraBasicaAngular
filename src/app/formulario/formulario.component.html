@@ -1,0 +1,14 @@
+<form>
+  <div class="form-group">
+    <label>Primer numero:</label>
+    <input type="number" class="form-control"
+    placeholder="Ingrese primer numero" [(ngModel)] = "operadorA" name="operadorA"/>
+  </div>
+  <div class="form-group">
+    <label>Segundo numero:</label>
+    <input type="number" class="form-control"
+    placeholder="Ingrese segundo numero" [(ngModel)] = "operadorB" name="operadorB"/>
+  </div>
+  <button type="submit" class="btn btn-primary"
+    (click)="sumar()">Sumar</button>
+</form>
